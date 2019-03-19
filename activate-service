@@ -1,5 +1,6 @@
 spring:
   profiles: local-insecure
+  name: activation-service
   datasource:
     driverClassName: oracle.jdbc.driver.OracleDriver
     url: jdbc:oracle:thin:@172.24.4.205:1521:orcl
