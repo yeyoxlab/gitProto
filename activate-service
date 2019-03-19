@@ -1,0 +1,9 @@
+spring:
+  profiles: local-insecure
+  datasource:
+    driverClassName: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@172.24.4.205:1521:orcl
+    username: BD_TKM_ABS    
+    password: BD_TKM_ABS
+  
+          
